@@ -20,10 +20,11 @@ public class Keyboardinput {
 
                 if (total >0){ 
                     double average = (double) sum / total; 
-                    System.out.println("Total numbers entered " + total); 
-                    System.out.println("Number greater or equal to 100: " +greater); 
                     System.out.println("The sum is: " + sum); 
+                    System.out.println("Total numbers entered " + total); 
                     System.out.println("The average is: "+ average); 
+                    System.out.println("Number greater or equal to 100: " +greater); 
+
                 }
                     else {
                         System.out.println("You didn't enter a number"); 
